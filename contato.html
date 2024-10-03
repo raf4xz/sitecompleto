@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <div id="loading">
+            <div class="loader"></div>
+        </div>
+        <header>
+            <div class="logotype">
+                <img class="logo" src="img/logoheade.png" alt="gato-azul-russo-logo">
+                <a href="index.html"><img class="aura" src="img/AuraPetescrito.png" alt="aura-pet">
+                </a>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="inicio">Início</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+
+        </nav>
+
+        <section class="contatos">
+            <h1>Nossos dados</h1>
+            <label for="email"><strong>Email de contato:</strong> aurapetclinica@gmail.com</label>
+            <label for="whats"><strong>Whatsapp:</strong>+55 (14) 99876-7042</label>
+            <label for="insta"><strong>Instagram:</strong>@Aura_pet</label>
+
+            <h1>Fale conosco</h1>
+
+            <form id="contactForm">
+                <fieldset>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email" required>
+                </fieldset>
+                <fieldset>
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto" name="assunto" placeholder="Assunto" required>
+                </fieldset>
+                <fieldset>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+                </fieldset>
+                <button type="submit" id="submit">Enviar</button>
+            </form>
+
+        </section>
+
+        <audio preload="metadata" controls autoplay>
+            <source src="som/musicafundo.mp3" type="audio/mp3">
+        </audio>
+
+        <footer>
+            &copy; 2024 Clínica AuraPet
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
