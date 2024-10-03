@@ -108,6 +108,10 @@ img {
     width: 130px;
 }
 
+p> img{
+    float: right;
+}
+
 video {
     padding-bottom: 20px;
 }
